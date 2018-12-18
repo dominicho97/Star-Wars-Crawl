@@ -7,7 +7,7 @@ body {
   background-color: black;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  
 
  
 }
@@ -16,28 +16,30 @@ body {
  
   color: yellow;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   
-  
+  font-style: bold;
 
-  -webkit-transform: rotateX(30deg); perspective: 300px;
-  transform: rotateX(30deg); perspective: 300px; 
+  -webkit-transform: rotateX(25deg); perspective: 300px;
+  transform: rotateX(25deg); perspective: 300px; 
+  
+  top: 150%;
   
   
-  scale: 1;
 }
 
 .position{
-  position: fixed;
+  position: fixed;;
   
   margin-left: 400px;
   margin-right: 400px;
   animation-name: example;
+  
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  -webkit-transform: rotateX(30deg); perspective: 300px;
-  transform: rotateX(30deg); perspective: 300px; 
+  -webkit-transform: rotateX(25deg); perspective: 300px;
+  transform: rotateX(25deg); perspective: 300px; 
   
   
 }
