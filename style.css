@@ -11,26 +11,33 @@ body {
  
   color: yellow;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  transform: rotateX(0deg);
+  transform: rotateX(40deg);
   font-size: 16px;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  
 }
 
 .position{
   position: fixed;
-  top: 35%;
+  top: 10%px;
   margin-left: 300px;
   margin-right: 300px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+ 
   
   
 }
 
 @keyframes example {
-  0%   {transform: rotateX(0deg)}
-  25%  {transform: rotateX(10deg)}
-  50%  {transform: rotateX(20deg)}
-  75%  {transform: rotateX(40deg)}
-  100% {transform: rotateX(150deg);}
+  0%   {top: 0px}
+  25%  {top: 500px}
+  50%  {top: 400px}
+  75%  {top: 300px}
+  100% {top: -00px;}
 }
+  /*0%   {transform: rotateX(0deg)}
+  25%  {transform: rotateX(deg)}
+  50%  {transform: rotateX(deg)}
+  75%  {transform: rotateX(deg)}
+  100% {transform: rotateX(0deg);}
