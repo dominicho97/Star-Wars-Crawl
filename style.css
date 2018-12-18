@@ -1,0 +1,22 @@
+
+
+
+
+
+body {
+  background-color: black;
+}
+
+.lorem{
+ 
+  color: yellow;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.position{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
