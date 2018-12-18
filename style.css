@@ -10,13 +10,27 @@ body {
 .lorem{
  
   color: yellow;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transform: rotateX(0deg);
+  font-size: 16px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .position{
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 35%;
+  margin-left: 300px;
+  margin-right: 300px;
   
+  
+}
+
+@keyframes example {
+  0%   {transform: rotateX(0deg)}
+  25%  {transform: rotateX(10deg)}
+  50%  {transform: rotateX(20deg)}
+  75%  {transform: rotateX(40deg)}
+  100% {transform: rotateX(150deg);}
 }
